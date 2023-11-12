@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/thiswork.css">
+</head>
+<body class="dark-extra">
+    <main>
+        <!-- header -->
+        <header class="container d-flex justify-content-space-between align-items-cente">
+            <div class="d-flex align-items-center justify-content-start flex-gap1 slide-in-r">
+                <img src="src/thiswork-removebg-preview.png" alt="" class="img-max-width-logo levitate">
+                <h3 class="breath">This is a header expample</h3>
+            </div>
+            <ul class="nav d-flex justify-content-space-between align-items-center flex-gap1 slide-in-l">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </header>
+        <!-- header -->
+        <!-- Basic theme -->
+        <div class="container d-flex flex-colum justify-content-center align-items-center">
+            <div class="container font">
+                <h1>This is the default theme!!</h1>
+                <h2>Hello</h2>
+                <h3><span class="rotate-3d">Push me!!</span></h3>
+                <h4>I'm a h4</h4>
+                <h5>I'm a h5</h5>
+                <h6>I'm a h6</h6>
+                <p>I'm a p</p>
+                <a href="">I'm an a</a>
+                <a href="https://store.epicgames.com/es-ES/p/fortnite" target="_blank">Good content</a>
+            </div>
+            <div class="container d-flex flex-gap3 justify-content-center">
+                <div class="card card-md  d-flex flex-colum align-items-center font-family-Inconsolata">
+                    <h3>Yo con el thiswork</h3>
+                    <img src="src/OIG.jpg" alt="" class="img-rounded">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                    <a href="">Enlace</a>
+                </div>
+                <div class="card card-md d-flex flex-colum align-items-center font-family-Lato">
+                    <img src="src/Pablito.jpg" alt="" class="img-rounded">
+                    <div class="card-title">
+                        <h3>Pablito con php</h3>
+                    </div>
+                    <div class="card-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                    </div>
+                    <a href="">Enlace</a>
+                </div>
+                <div class="card card-md d-flex flex-colum align-items-center font-family-Roboto">
+                    <div class="card-title">
+                        <h3>El juaky dando clase</h3>    
+                        <h5 class="card-subtitle">Ganando señority</h5>
+                    </div>
+                    <img src="src/OIG (1).jpg" alt="" class="img-circle">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                    <a href="">Enlace</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="name" class="label">Nombre:</label>
+                        <input type="text" id="name" name="name" class="input-field">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="label">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" class="input-field">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="label">Mensaje:</label>
+                        <textarea id="message" name="message" rows="4" class="input-field"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <p>Género:</p>
+                        <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                        <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                    </div>
+                    <div class="form-group">
+                        <p>Preferencias:</p>
+                        <label><input type="checkbox" name="preferencia" value="opcion1"> Opción 1</label>
+                        <label><input type="checkbox" name="preferencia" value="opcion2"> Opción 2</label>                        
+                    </div>
+                    <div class="form-group">
+                        <label for="opciones">Selecciona una opción:</label>
+                        <select id="opciones" name="opciones" required>
+                          <option value="opcion1">Opción 1</option>
+                          <option value="opcion2">Opción 2</option>
+                          <option value="opcion3">Opción 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="archivo">Seleccionar archivo:</label>
+                        <input type="file" id="archivo" name="archivo">
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Encabezado 1</th>
+                        <th scope="col">Encabezado 2</th>
+                        <th scope="col">Encabezado 3</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                        <td>Dato 3</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Dato 4</td>
+                        <td>Dato 5</td>
+                        <td>Dato 6</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+        <!-- Basic theme -->
+
+        <!-- GREEN THEME -->
+        <div class="theme-green">
+            <div class="container d-flex flex-colum justify-content-center align-items-center">
+                <div class="container">
+                    <h1>This is the default theme!!</h1>
+                    <h2>Hello</h2>
+                    <h3><span class="rotate-3d">Push me!!</span></h3>
+                    <h4>I'm a h4</h4>
+                    <h5>I'm a h5</h5>
+                    <h6>I'm a h6</h6>
+                    <p>I'm a p</p>
+                    <a href="">I'm an a</a>
+                    <a href="https://store.epicgames.com/es-ES/p/fortnite" target="_blank">Good content</a>
+                </div>
+                <div class="container d-flex flex-gap3 justify-content-center">
+                    <div class="card card-md  d-flex flex-colum align-items-center">
+                        <h3>Yo con el thiswork</h3>
+                        <img src="src/OIG.jpg" alt="" class="img-rounded">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        <a href="">Enlace</a>
+                    </div>
+                    <div class="card card-md d-flex flex-colum align-items-center">
+                        <img src="src/Pablito.jpg" alt="" class="img-rounded">
+                        <div class="card-title">
+                            <h3>Pablito con php</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        </div>
+                        <a href="">Enlace</a>
+                    </div>
+                    <div class="card card-md d-flex flex-colum align-items-center">
+                        <div class="card-title">
+                            <h3>El juaky dando clase</h3>    
+                            <h5 class="card-subtitle">Ganando señority</h5>
+                        </div>
+                        <img src="src/OIG (1).jpg" alt="" class="img-circle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        <a href="">Enlace</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="form-container">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="label">Nombre:</label>
+                            <input type="text" id="name" name="name" class="input-field">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="label">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" class="input-field">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="label">Mensaje:</label>
+                            <textarea id="message" name="message" rows="4" class="input-field"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <p>Género:</p>
+                            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                        </div>
+                        <div class="form-group">
+                            <p>Preferencias:</p>
+                            <label><input type="checkbox" name="preferencia" value="opcion1"> Opción 1</label>
+                            <label><input type="checkbox" name="preferencia" value="opcion2"> Opción 2</label>                        
+                        </div>
+                        <div class="form-group">
+                            <label for="opciones">Selecciona una opción:</label>
+                            <select id="opciones" name="opciones" required>
+                              <option value="opcion1">Opción 1</option>
+                              <option value="opcion2">Opción 2</option>
+                              <option value="opcion3">Opción 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="archivo">Seleccionar archivo:</label>
+                            <input type="file" id="archivo" name="archivo">
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Encabezado 1</th>
+                            <th scope="col">Encabezado 2</th>
+                            <th scope="col">Encabezado 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Dato 4</td>
+                            <td>Dato 5</td>
+                            <td>Dato 6</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+        </div>
+        <!-- GREEN THEME -->
+
+        <!-- RED THEME -->
+        <div class="theme-red">
+            <div class="container d-flex flex-colum justify-content-center align-items-center">
+                <div class="container">
+                    <h1>This is the RED theme!!</h1>
+                    <h2>Hello</h2>
+                    <h3><span class="rotate-3d">Push me!!</span></h3>
+                    <h4>I'm a h4</h4>
+                    <h5>I'm a h5</h5>
+                    <h6>I'm a h6</h6>
+                    <p>I'm a p</p>
+                    <a href="">I'm an a</a>
+                    <a href="https://store.epicgames.com/es-ES/p/fortnite" target="_blank">Good content</a>
+                </div>
+                <div class="container d-flex flex-gap3 justify-content-center">
+                    <div class="card card-md  d-flex flex-colum align-items-center">
+                        <h3>Yo con el thiswork</h3>
+                        <img src="src/OIG.jpg" alt="" class="img-rounded">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        <a href="">Enlace</a>
+                    </div>
+                    <div class="card card-md d-flex flex-colum align-items-center">
+                        <img src="src/Pablito.jpg" alt="" class="img-rounded">
+                        <div class="card-title">
+                            <h3>Pablito con php</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        </div>
+                        <a href="">Enlace</a>
+                    </div>
+                    <div class="card card-md d-flex flex-colum align-items-center">
+                        <div class="card-title">
+                            <h3>El juaky dando clase</h3>    
+                            <h5 class="card-subtitle">Ganando señority</h5>
+                        </div>
+                        <img src="src/OIG (1).jpg" alt="" class="img-circle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        <a href="">Enlace</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="form-container">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="label">Nombre:</label>
+                            <input type="text" id="name" name="name" class="input-field">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="label">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" class="input-field">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="label">Mensaje:</label>
+                            <textarea id="message" name="message" rows="4" class="input-field"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <p>Género:</p>
+                            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                        </div>
+                        <div class="form-group">
+                            <p>Preferencias:</p>
+                            <label><input type="checkbox" name="preferencia" value="opcion1"> Opción 1</label>
+                            <label><input type="checkbox" name="preferencia" value="opcion2"> Opción 2</label>                        
+                        </div>
+                        <div class="form-group">
+                            <label for="opciones">Selecciona una opción:</label>
+                            <select id="opciones" name="opciones" required>
+                              <option value="opcion1">Opción 1</option>
+                              <option value="opcion2">Opción 2</option>
+                              <option value="opcion3">Opción 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="archivo">Seleccionar archivo:</label>
+                            <input type="file" id="archivo" name="archivo">
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Encabezado 1</th>
+                            <th scope="col">Encabezado 2</th>
+                            <th scope="col">Encabezado 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Dato 4</td>
+                            <td>Dato 5</td>
+                            <td>Dato 6</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+        </div>
+        <!-- RED THEME -->
+
+        <!-- YELLOW THEME -->
+        <div class="theme-yellow">
+            <div class="container d-flex flex-colum justify-content-center align-items-center">
+                <div class="container">
+                    <h1>This is the YELLOW theme!!</h1>
+                    <h2>Hello</h2>
+                    <h3><span class="rotate-3d">Push me!!</span></h3>
+                    <h4>I'm a h4</h4>
+                    <h5>I'm a h5</h5>
+                    <h6>I'm a h6</h6>
+                    <p>I'm a p</p>
+                    <a href="">I'm an a</a>
+                    <a href="https://store.epicgames.com/es-ES/p/fortnite" target="_blank">Good content</a>
+                </div>
+                <div class="container d-flex flex-gap3 justify-content-center">
+                    <div class="card card-md  d-flex flex-colum align-items-center">
+                        <h3>Yo con el thiswork</h3>
+                        <img src="src/OIG.jpg" alt="" class="img-rounded">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        <a href="">Enlace</a>
+                    </div>
+                    <div class="card card-md d-flex flex-colum align-items-center">
+                        <img src="src/Pablito.jpg" alt="" class="img-rounded">
+                        <div class="card-title">
+                            <h3>Pablito con php</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        </div>
+                        <a href="">Enlace</a>
+                    </div>
+                    <div class="card card-md d-flex flex-colum align-items-center">
+                        <div class="card-title">
+                            <h3>El juaky dando clase</h3>    
+                            <h5 class="card-subtitle">Ganando señority</h5>
+                        </div>
+                        <img src="src/OIG (1).jpg" alt="" class="img-circle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam eveniet aspernatur minus iusto optio eligendi aliquid voluptate quam asperiores, placeat quibusdam. Exercitationem a voluptas accusamus ipsum, similique molestiae odio?</p>
+                        <a href="">Enlace</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="form-container">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="label">Nombre:</label>
+                            <input type="text" id="name" name="name" class="input-field">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="label">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" class="input-field">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="label">Mensaje:</label>
+                            <textarea id="message" name="message" rows="4" class="input-field"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <p>Género:</p>
+                            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                        </div>
+                        <div class="form-group">
+                            <p>Preferencias:</p>
+                            <label><input type="checkbox" name="preferencia" value="opcion1"> Opción 1</label>
+                            <label><input type="checkbox" name="preferencia" value="opcion2"> Opción 2</label>                        
+                        </div>
+                        <div class="form-group">
+                            <label for="opciones">Selecciona una opción:</label>
+                            <select id="opciones" name="opciones" required>
+                              <option value="opcion1">Opción 1</option>
+                              <option value="opcion2">Opción 2</option>
+                              <option value="opcion3">Opción 3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="archivo">Seleccionar archivo:</label>
+                            <input type="file" id="archivo" name="archivo">
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Encabezado 1</th>
+                            <th scope="col">Encabezado 2</th>
+                            <th scope="col">Encabezado 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Dato 4</td>
+                            <td>Dato 5</td>
+                            <td>Dato 6</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+        </div>
+        <!-- YELLOW THEME -->
+
+    </main>
+</body>
+</html>
